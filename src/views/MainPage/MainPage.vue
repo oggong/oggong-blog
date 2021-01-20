@@ -21,10 +21,8 @@
                 </div>
                 <div class="row align-items-center justify-content-around stars-and-coded">
                     <div class="col-sm-4">
-                       
                     </div>
                     <div class="col-sm-4 mt-4 mt-sm-0 text-right">
-                       
                     </div>
                 </div>
             </div>
