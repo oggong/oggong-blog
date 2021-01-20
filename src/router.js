@@ -2,7 +2,8 @@ import Vue from "vue";
 import Router from "vue-router";
 import AppHeader from "./layout/AppHeader";
 import AppFooter from "./layout/AppFooter";
-import Components from "./views/Components.vue";
+
+import MainPage from "./views/MainPage/MainPage.vue";
 
 Vue.use(Router);
 
@@ -11,10 +12,10 @@ export default new Router({
   routes: [
     {
       path: "/",
-      name: "components",
+      name: "main",
       components: {
         header: AppHeader,
-        default: Components,
+        default: MainPage,
         footer: AppFooter,
       },
     },
